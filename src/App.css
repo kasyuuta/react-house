@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page{
+  padding: 58px 12%;
+}
+
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right ;
+}
+.error-message{
+  color: red;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: rgb(83, 83, 245);
+  color:  #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn-primary:hover{
+  background: rgb(108, 108, 246);
+  box-shadow: 0 0 4px ;
+}
+.btn-primary:disabled{
+  cursor: not-allowed;
+  background: rgb(199, 199, 199);
+  color: rgb(114, 114, 114);
+}
